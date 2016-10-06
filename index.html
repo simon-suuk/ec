@@ -58,11 +58,13 @@
 
 			<div data-role="header" style="text-shadow: none">
 				<h1>EC</h1>
-				<a href="index.html" data-role="button" data-icon="refresh" data-iconpos="notext" style="background: white;border: none;">Refresh</a>
+				<!--a href="index.html" data-role="button" data-icon="refresh" data-iconpos="notext" style="background: white;border: none;">Refresh</a-->
 			</div><!-- /header -->
 
 			<div data-role="content" style="text-shadow: none">
-				<img href="index.html" data-transition="pop" src="ec_logo.jpg" height="80px" width="50px">
+				<a href="index.html">
+					<img href="index.html" data-transition="pop" src="GIPC.png" >
+				</a>
 				<br />
 			</div><!-- /content -->
 			
@@ -73,9 +75,7 @@
 				</button>
 			</a>
 			<br />
-			</div><!-- /content -->
 			
-			<div data-role="content" style="text-shadow: none">
 			<a href="#thirdPage" data-transition="pop">
 				<button >
 					Result
@@ -126,7 +126,11 @@
 		
 		
 		<div data-role="page" id="thirdPage" style="background: white">
-	
+			<div data-role="header" style="text-shadow: none">
+				<h1>EC</h1>
+				<a href="index.html" data-role="button" data-icon="refresh" data-iconpos="notext" style="background: white;border: none;">Refresh</a>
+			</div><!-- /header -->
+			
 			<div data-role="content" style="text-shadow: none">
 				<label for="afp">AFP</label>  <input required id="afp" name="to" placeholder="recipient's number" class="form-control input-md" type="text">
 				<label for="cpc">CPC</label> <input required id="cpc" name="to" placeholder="recipient's number" class="form-control input-md" type="text">
